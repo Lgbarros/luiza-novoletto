@@ -722,7 +722,37 @@ iframe {
 
     /* ABOUT */
     #sobre article {
-        width: auto;
+        width: auto !important;
+    }
+
+    /* SERVICES */
+
+    /* CLINIC */
+    iframe {
+        width: 450px !important;
+    }
+
+    /* FOOTER */
+}
+
+@media screen and (max-width: 1600px) {
+    /* GERAL */
+    
+    /* MENU */
+
+    /* BANNER */
+    .banner article {
+        padding-top: 20vh;
+    }
+
+    .person-desktop {
+        max-width: 100%;
+        margin-top: 15vh;
+    }
+
+    /* ABOUT */
+    #sobre article {
+        width: auto !important;
     }
 
     /* SERVICES */
