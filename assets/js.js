@@ -43,4 +43,36 @@ document.addEventListener("DOMContentLoaded", function(){
             document.body.style.paddingTop = '0';
         } 
     });
+
+
+    // muda o SRC do iframe onclick
+
+    var iframe = document.querySelector('#map-iframe');
+
+    //aplica o src do primeiro elemento no iframe
+    iframe.src = document.querySelector('.callout-info').getAttribute('data-src');
+
+    document.querySelectorAll('.callout-info').forEach(function(element) {
+        element.addEventListener('click', function() {
+           
+            var src = this.getAttribute('data-src');
+    
+            // Log
+            console.log('Mudando src do iframe para: ' + src);
+    
+            iframe.src = src;
+        });
+    });
+    
+
+
+
+
+
+
+
+
+
+
+
 }); 
