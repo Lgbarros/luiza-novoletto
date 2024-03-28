@@ -55,12 +55,36 @@ document.addEventListener("DOMContentLoaded", function(){
     document.querySelectorAll('.callout-info').forEach(function(element) {
         element.addEventListener('click', function() {
            
-            var src = this.getAttribute('data-src');
-    
-            // Log
-            console.log('Mudando src do iframe para: ' + src);
-    
-            iframe.src = src;
+
+            //se o tamanho da tela for maior que 991
+
+            if(window.innerWidth > 991){
+
+                var src = this.getAttribute('data-src');
+        
+                // Log
+                console.log('Mudando src do iframe para: ' + src);
+        
+                iframe.src = src;
+
+                return true;
+
+            }
+
+            //adiciona window.open para mobile
+
+            if(window.innerWidth <= 991){
+
+
+                var href = this.getAttribute('data-href');
+
+
+                window.open(href, '_blank');
+
+
+            }
+
+
         });
     });
     

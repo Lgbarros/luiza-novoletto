@@ -303,7 +303,6 @@ body::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-transition: .2s all ease-in;
     width: 95%;
-    cursor: pointer;
 }
 
 .callout-info-services:hover {
@@ -373,6 +372,7 @@ body::-webkit-scrollbar-thumb {
 
 #consultorios article {
     border-radius: 40px 5px 40px 5px;
+    cursor: pointer;
 }
 
 .poster-card {
@@ -510,10 +510,6 @@ body::-webkit-scrollbar-thumb {
 
     /* BANNER */
 
-    #title-detail {
-        margin: 0 auto;
-    }
-
     .banner .row {
         padding: 0vh 1vh 0vh 1vh;
         max-width: none !important;
@@ -522,8 +518,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .banner article {
-        padding: 15vh 0vh 0vh 3vh;
-        text-align: center;
+        padding: 15vh 0vh 0vh 0vh;
     }
 
     .banner h1 {
@@ -686,20 +681,10 @@ body::-webkit-scrollbar-thumb {
     /* MENU */
 
     /* BANNER */
-    .banner article {
-        padding: 10vh;
-        padding-top: 20vh;
-    }
-
-    .person-desktop {
-        width: 100%;
-        bottom: -23.8vh;
-        position: relative;
-    }
 
     /* ABOUT */
     #sobre article {
-        width: auto;
+        width: 550px;
     }
 
     /* SERVICES */
