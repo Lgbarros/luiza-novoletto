@@ -173,6 +173,10 @@ body::-webkit-scrollbar-thumb {
     padding: 10vh;
 }
 
+/* .person-desktop {
+    width: 100%;
+} */
+
 /* SOBRE */
 
 #sobre {
@@ -712,9 +716,8 @@ iframe {
     }
 
     .person-desktop {
-        width: 95%;
-        bottom: -29.2vh;
-        position: relative;
+        max-width: 100%;
+        margin-top: 15vh;
     }
 
     /* ABOUT */
