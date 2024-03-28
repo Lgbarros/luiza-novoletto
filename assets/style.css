@@ -345,6 +345,12 @@ body::-webkit-scrollbar-thumb {
 
 /* CONSULTORIOS */
 
+iframe {
+    border-radius: 15px;
+    border: 2px solid #000 !important;
+    filter: drop-shadow(1px 4px 10px black);
+}
+
 #title-responsive {
     display: none !important;
 }
@@ -372,7 +378,6 @@ body::-webkit-scrollbar-thumb {
 
 #consultorios article {
     border-radius: 40px 5px 40px 5px;
-    cursor: pointer;
 }
 
 .poster-card {
@@ -386,6 +391,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-backdrop-filter: blur( 3px );
     border-radius: 10px;
     -webkit-transition: .2s all ease-in;
+    cursor: pointer !important;
 }
 
 .callout-info:hover {
@@ -518,7 +524,13 @@ body::-webkit-scrollbar-thumb {
     }
 
     .banner article {
-        padding: 15vh 0vh 0vh 0vh;
+        padding: 15vh 0vh 0vh 4vh;
+        text-align: center;
+    }
+
+    #title-detail {
+        margin: 0 auto;
+        width: 60%;
     }
 
     .banner h1 {
@@ -681,15 +693,27 @@ body::-webkit-scrollbar-thumb {
     /* MENU */
 
     /* BANNER */
+    .banner article {
+        padding-top: 20vh;
+    }
+
+    .person-desktop {
+        width: 95%;
+        bottom: -29.2vh;
+        position: relative;
+    }
 
     /* ABOUT */
     #sobre article {
-        width: 550px;
+        width: auto;
     }
 
     /* SERVICES */
 
     /* CLINIC */
+    iframe {
+        width: 450px !important;
+    }
 
     /* FOOTER */
 }
