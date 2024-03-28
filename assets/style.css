@@ -705,7 +705,7 @@ iframe {
     /* FOOTER */
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (max-width: 1366px) {
     /* GERAL */
     
     /* MENU */
