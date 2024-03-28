@@ -74,29 +74,10 @@ document.addEventListener("DOMContentLoaded", function(){
             //adiciona window.open para mobile
 
             if(window.innerWidth <= 991){
-
-
                 var href = this.getAttribute('data-href');
 
-
                 window.open(href, '_blank');
-
-
             }
-
-
         });
     });
-    
-
-
-
-
-
-
-
-
-
-
-
 }); 

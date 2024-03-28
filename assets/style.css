@@ -351,6 +351,10 @@ iframe {
     filter: drop-shadow(1px 4px 10px black);
 }
 
+#button-maps {
+    display: none;
+}
+
 #title-responsive {
     display: none !important;
 }
@@ -620,6 +624,15 @@ iframe {
 
     /* CLINIC */
 
+    #button-maps {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .poster-card {
+        margin-top: -15vh;
+    }
+
     #title-responsive {
         display: block !important;
     }
@@ -645,6 +658,7 @@ iframe {
     #consultorios article {
         flex-direction: column;
         padding-bottom: 5vh;
+        margin-bottom: 8vh;
     }
 
     #consultorios h1 {
