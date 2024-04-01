@@ -626,6 +626,11 @@ iframe {
         margin-top: 0% !important;
     }
 
+    .img-services {
+        position: relative;
+        left: 0%;
+    }
+
     /* CLINIC */
 
     #button-maps1, #button-maps2, #button-maps3 {
